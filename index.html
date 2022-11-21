@@ -12,13 +12,13 @@
             </header>
                 <section id="section1">
                     <div id="section1-box">
-                    <h2 class="h2-1">INFORMATION DE CONNEXION</h2>
-                    <h2 class="h2-1">PROFIL PROFESSIONEL</h2>
-                    <h2 class="h2-1"id="lasth2">CENTRE D'INTERET</h2>
+                    <h2 class="h2-1 active">INFORMATION DE CONNEXION</h2>
+                    <h2 class="h2-1 passive">PROFIL PROFESSIONEL</h2>
+                    <h2 class="h2-1 passive"id="lasth2">CENTRE D'INTERET</h2>
                     </div>
                 </section>
        <section id="section2">
-                <form id = "form1">
+                <form class="active"id = "form1">
                     <label>Nom d'utilisateur</label>
                      <input type="text" name="util" >
                      <label>Email</label>
@@ -29,9 +29,10 @@
                      <input type="text" name="confirmMDP" >
                      
                      <input class ="submit"type="submit" value="ENREGISTRER"  id="input1"/>
-                      <button id="bt1">Submit </button>
+                     
                 </form>
-                 <form id = "form2">
+                 <button id="bt1">Submit </button>
+                 <form  class ="passive"id = "form2">
                      
                     <h3>Niveau d'étude</h3>
                     <div id = "grid1">
@@ -53,9 +54,10 @@
                    <fieldset>   <input type="radio" name="profil" value="Dev Mobile"> <label>Dev Mobile</label></fieldset>
                      </div>
                      <input class ="submit" type="submit" value="ENREGISTRER" />
-                     <button id="bt2">Submit </button>
+                     
                 </form>
-                 <form id = "form3" action="">
+                <button id="bt2">Submit </button>
+                 <form class ="passive" id = "form3" action="">
                      <div id="grid3">
                     <fieldset>  <input type="checkbox" name="Banque" id="hobby1"> <label for="hobby1">Banque</label></fieldset>
                      <fieldset>  <input type="checkbox" name="Communication" id="hobby2"> <label for="hobby2">Communication</label></fieldset>
@@ -67,8 +69,9 @@
                           <fieldset>   <input type="checkbox" name="Politique" id="hobby8"> <label for="hobby8">Politique</label></fieldset>
                      </div>
                      <input class ="submit" type="submit" value="ENREGISTRER" />
-                     <button id="bt3">Submit </button>
+                    
                 </form>
+                 <button id="bt3">Submit </button>
             </section>
       <footer></footer>
         <script src="script.js" type="application/javascript"></script>
