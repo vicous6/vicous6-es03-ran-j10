@@ -1,0 +1,62 @@
+header{
+    height:75px
+}
+#section1 ,#section2{
+    
+    display:flex;
+  
+}
+#section1{ 
+    
+    height:20%;
+    
+}
+#section2{ 
+    
+    
+    height:60%;
+}
+#form1 > input,label{
+    
+    margin:10px;
+    
+}
+
+#form1 > input{
+    height:20px;
+    width:90%;
+}
+#form1{
+    
+    display:flex;
+    flex-direction:column;
+   
+}
+
+#form1,#form2,#form3{
+    width:33%;
+}
+h2{
+    
+    width:33%;
+    
+     text-align:center;
+}
+h1{
+    text-align:center;
+}
+
+.submit{
+    height:40px;
+    width:120px
+}
+#input1{
+    
+     height:40px;
+    width:120px
+}
+
+#grid1{
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
