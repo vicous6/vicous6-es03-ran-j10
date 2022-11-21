@@ -12,9 +12,9 @@
             </header>
                 <section id="section1">
                     <div id="section1-box">
-                    <h2>INFORMATION DE CONNEXION</h2>
-                    <h2>PROFIL PROFESSIONEL</h2>
-                    <h2 id="lasth2">CENTRE D'INTERET</h2>
+                    <h2 class="h2-1">INFORMATION DE CONNEXION</h2>
+                    <h2 class="h2-1">PROFIL PROFESSIONEL</h2>
+                    <h2 class="h2-1"id="lasth2">CENTRE D'INTERET</h2>
                     </div>
                 </section>
        <section id="section2">
@@ -29,42 +29,45 @@
                      <input type="text" name="confirmMDP" >
                      
                      <input class ="submit"type="submit" value="ENREGISTRER"  id="input1"/>
+                      <button id="bt1">Submit </button>
                 </form>
                  <form id = "form2">
                      
                     <h3>Niveau d'étude</h3>
                     <div id = "grid1">
-                    <fieldset> <input type="radio" name="etude" id="etude1"> <label for="etude1">CAP-BEP</label></fieldset> 
-                    <fieldset> <input type="radio" name="etude" id="etude2"> <label for="etude2">Bac</label></fieldset> 
-                    <fieldset> <input type="radio" name="etude" id="etude3"> <label for="etude3">Bac+2</label></fieldset> 
-                    <fieldset> <input type="radio" name="etude" id="etude4"> <label for="etude4">Bac+3</label></fieldset> 
-                    <fieldset> <input type="radio" name="etude" id="etude5"> <label for="etude5">Bac+5</label></fieldset> 
-                    <fieldset> <input type="radio" name="etude" id="etude6"> <label for="etude6">Bac+7</label></fieldset> 
+                    <fieldset> <input type="radio" name="etude" id="etude1" value="cap"> <label for="etude1">CAP-BEP</label></fieldset> 
+                    <fieldset> <input type="radio" name="etude" id="etude2"  value="bap"> <label for="etude2">Bac</label></fieldset> 
+                    <fieldset> <input type="radio" name="etude" id="etude3" value="bac+2"> <label for="etude3">Bac+2</label></fieldset> 
+                    <fieldset> <input type="radio" name="etude" id="etude4" value="bac+3"> <label for="etude4">Bac+3</label></fieldset> 
+                    <fieldset> <input type="radio" name="etude" id="etude5" value="bac+5"> <label for="etude5">Bac+5</label></fieldset> 
+                    <fieldset> <input type="radio" name="etude" id="etude6" value="bac+7"> <label for="etude6">Bac+7</label></fieldset> 
                      </div>
                     
                      <h3>Profil de développeur</h3>
                       <div id = "grid2">
-                   <fieldset>  <input type="radio" name="profil" > <label>Dev Web Backend</label></fieldset>
-                   <fieldset>   <input type="radio" name="profil" > <label>Dev Web Frontend</label></fieldset>
-                   <fieldset>   <input type="radio" name="profil" > <label>Dev Web Fullstack</label></fieldset>
-                   <fieldset>   <input type="radio" name="profil" > <label>Dev Jeux Video</label></fieldset>
-                   <fieldset>   <input type="radio" name="profil" > <label>Dev Logiciel</label></label></fieldset>
-                   <fieldset>   <input type="radio" name="profil" > <label>Dev Mobile</label></fieldset>
+                   <fieldset>  <input type="radio" name="profil" value="Dev Web Backend"> <label>Dev Web Backend</label></fieldset>
+                   <fieldset>   <input type="radio" name="profil" value="Dev Web Frontend"> <label>Dev Web Frontend</label></fieldset>
+                   <fieldset>   <input type="radio" name="profil" value="Dev Web Fullstack"> <label>Dev Web Fullstack</label></fieldset>
+                   <fieldset>   <input type="radio" name="profil" value="Dev Jeux Video"> <label>Dev Jeux Video</label></fieldset>
+                   <fieldset>   <input type="radio" name="profil" value="Dev Logiciel"> <label>Dev Logiciel</label></label></fieldset>
+                   <fieldset>   <input type="radio" name="profil" value="Dev Mobile"> <label>Dev Mobile</label></fieldset>
                      </div>
                      <input class ="submit" type="submit" value="ENREGISTRER" />
+                     <button id="bt2">Submit </button>
                 </form>
-                 <form id = "form3">
+                 <form id = "form3" action="">
                      <div id="grid3">
-                    <fieldset>  <input type="checkbox" name="hobby" id="hobby1"> <label for="hobby1">Bac+7</label></fieldset>
-                     <fieldset>  <input type="checkbox" name="hobby" id="hobby2"> <label for="hobby2">Bac+7</label></fieldset>
-                      <fieldset>  <input type="checkbox" name="hobby" id="hobby3"> <label for="hobby3">Bac+7</label></fieldset>
-                       <fieldset>  <input type="checkbox" name="hobby" id="hobby4"> <label for="hobby4">Bac+7</label></fieldset>
-                        <fieldset>  <input type="checkbox" name="hobby" id="hobby5"> <label for="hobby5">Bac+7</label></fieldset>
-                         <fieldset>  <input type="checkbox" name="hobby" id="hobby6"> <label for="hobby6">Bac+7</label></fieldset>
-                         <fieldset>   <input type="checkbox" name="hobby" id="hobby7"> <label for="hobby7">Bac+7</label></fieldset>
-                          <fieldset>   <input type="checkbox" name="hobby" id="hobby8"> <label for="hobby8">Bac+7</label></fieldset>
+                    <fieldset>  <input type="checkbox" name="Banque" id="hobby1"> <label for="hobby1">Banque</label></fieldset>
+                     <fieldset>  <input type="checkbox" name="Communication" id="hobby2"> <label for="hobby2">Communication</label></fieldset>
+                      <fieldset>  <input type="checkbox" name="Publicité" id="hobby3"> <label for="hobby3">Publicité</label></fieldset>
+                       <fieldset>  <input type="checkbox" name="Défense" id="hobby4"> <label for="hobby4">Défense</label></fieldset>
+                        <fieldset>  <input type="checkbox" name="Finance" id="hobby5"> <label for="hobby5">Finance</label></fieldset>
+                         <fieldset>  <input type="checkbox" name="Education" id="hobby6"> <label for="hobby6">Education</label></fieldset>
+                         <fieldset>   <input type="checkbox" name="Santé" id="hobby7"> <label for="hobby7">Santé</label></fieldset>
+                          <fieldset>   <input type="checkbox" name="Politique" id="hobby8"> <label for="hobby8">Politique</label></fieldset>
                      </div>
                      <input class ="submit" type="submit" value="ENREGISTRER" />
+                     <button id="bt3">Submit </button>
                 </form>
             </section>
       <footer></footer>
